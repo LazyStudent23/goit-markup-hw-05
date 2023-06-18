@@ -864,6 +864,10 @@ img {
     color: var(--modal-input-label);
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
 .comment-area::placeholder {
     font-size: 12px;
     line-height: 1.17;
@@ -896,8 +900,8 @@ img {
 }
 
 .policy-check-text {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
