@@ -839,6 +839,10 @@ img {
     transition: fill var(--transition);
 }
 
+.modal-comment-field {
+    margin-bottom: 16px;
+}
+
 .modal-input-label {
     display: block;
     margin-bottom: 4px;
@@ -880,8 +884,8 @@ img {
 }
 
 .policy-check-text {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
