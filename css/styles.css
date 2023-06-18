@@ -804,7 +804,7 @@ img {
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .input-wrap {
@@ -888,8 +888,8 @@ img {
     color: var(--modal-input-label);
 }
 
-.policy-check-text span {
-    display: flex;
+.fake-checkbox {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 8px;
@@ -898,6 +898,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
     fill: transparent;
+    transition: background-color var(--transition), border var(--transition), fill var(--transition);
 }
 
 .input-check:checked + .policy-check-text span {
@@ -907,16 +908,12 @@ img {
     border: none;
 }
 
-.fake-checkbox {
-    transition: background-color var(--transition), border var(--transition), fill var(--transition);
-    display: inline-flex;
-}
-
 .icon-check {
     
 }
 
 .policy-link {
+    margin-left: 4px;
         line-height: 1.33;
         text-decoration-line: underline;
     color: var(--modal-input-focus);
@@ -938,7 +935,7 @@ img {
         margin: 24px auto 0px;
         justify-content: center;
         cursor: pointer;
-        transition: border-color var(--transition);
+        transition: background-color var(--transition);
 }
 
 .is-hidden {
