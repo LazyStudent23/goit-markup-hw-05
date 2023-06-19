@@ -902,6 +902,7 @@ img {
 }
 
 .privacy-wrap {
+    margin-bottom: 24px;
 }
 
 .policy-check-text {
@@ -955,7 +956,7 @@ img {
         border-radius: 4px;
         border: none;
         display: block;
-        margin: 24px auto 0px;
+        margin: 0 auto;
         justify-content: center;
         cursor: pointer;
         transition: background-color var(--transition);
