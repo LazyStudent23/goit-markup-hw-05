@@ -855,7 +855,7 @@ img {
     transform: translateY(-50%);
     left: 16px;
     transition: fill var(--transition);
-    fill: var(--primary-color);
+    fill: var(--secondary-color);
 }
 
 .modal-comment-field {
